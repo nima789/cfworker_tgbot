@@ -60,6 +60,8 @@
 
 ### 4️⃣ 配置telegram bot
 部署完成后浏览器访问
-https://api.telegram.org/bot<bot_token>/setWebhook?url=https://<wokers地址>/
+
+https://api.telegram.org/bot<bot_token>/setWebhook?url=https://<wokers地址>
+
 设置Webhook就可以使用了
 
