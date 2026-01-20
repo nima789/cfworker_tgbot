@@ -5,7 +5,7 @@ export default {
     try {
       const BOT_TOKEN = env.BOT_TOKEN;
       const BOT_USERNAME = env.BOT_USERNAME; // 例如 xzcd_bot
-      const ADMIN_IDS = parseAdminIds(env.ADMIN_IDS); // "5334601664,123" or [".."]
+      const ADMIN_IDS = parseAdminIds(env.ADMIN_IDS); // "123" or [".."]
       const TELEGRAM_RULES = env.BOT; // KV
 
       const update = await request.json();
