@@ -4,7 +4,7 @@ export default {
   async fetch(request, env, ctx) {
     try {
       const BOT_TOKEN = env.BOT_TOKEN;
-      const BOT_USERNAME = env.BOT_USERNAME; // 例如 xzcd_bot
+      const BOT_USERNAME = env.BOT_USERNAME; // 例如 abc_bot
       const ADMIN_IDS = parseAdminIds(env.ADMIN_IDS); // "123" or [".."]
       const TELEGRAM_RULES = env.BOT; // KV
 
